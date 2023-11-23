@@ -1,9 +1,9 @@
 import React from 'react'
-import Logo from "../assets/images/Thor-Industries-Logo-Bardh.png";
-import mineicon from "../assets/images/mine-icon.png";
-import constructionicon from "../assets/images/construction-icon.png";
-import energyicon from "../assets/images/energy-icon.png";
-import iticon from "../assets/images/IT-icon.png";
+import Logo from "../assets/images/jetmir.png";
+import mineicon from "../assets/images/macbook-vector.png";
+import constructionicon from "../assets/images/ipad-vector.svg";
+import energyicon from "../assets/images/iPhone-vector.png";
+import iticon from "../assets/images/airpods-vector.svg";
 import { motion } from 'framer-motion';
 import { ContainerAnimation, imageAnimation, itemAnimation, textAnimation } from '../utils/motion';
 import { faAnglesRight } from '@fortawesome/free-solid-svg-icons';
@@ -41,19 +41,19 @@ const MainAboutUs = () => {
                     <img src={Logo} className="w-[50%] h-[35%] md:w-[65%] md:h-[42%] xl:w-[90%] xl:h-[64%]"/>
                   </motion.div>
                   <div className='w-[300px] h-auto flex flex-col ml-[0px] '>
-                    <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thororange ml-[-5px] mt-[150px] md:ml-[90px] md:mt-[130px] xl:ml-[150px] xl:mt-[-10px] rounded-full flex items-center justify-center'>
+                    <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thorwhite ml-[-5px] mt-[150px] md:ml-[90px] md:mt-[130px] xl:ml-[150px] xl:mt-[-10px] rounded-full flex items-center justify-center'>
                       <img src={mineicon} className="w-[65px] h-[65px] md:w-[85px] md:h-[85px] xl:w-[120px] xl:h-[120px]"/>
                     </motion.div>
-                    <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thororange ml-[-30px] mt-[25px] md:ml-[40px] md:mt-[25px] xl:ml-[140px] xl:mt-[40px] rounded-full flex items-center justify-center'>
+                    <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thorwhite ml-[-30px] mt-[25px] md:ml-[40px] md:mt-[25px] xl:ml-[140px] xl:mt-[40px] rounded-full flex items-center justify-center'>
                       <img src={constructionicon} className="w-[65px] h-[65px] md:w-[85px] md:h-[85px] xl:w-[120px] xl:h-[120px]"/>
                     </motion.div>
                   </div>
                 </div>
                 <div className='w-[540px] h-[350px] flex flex-row' >
-                  <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thororange mt-[-20px] ml-[170px] md:mt-[10px] md:ml-[190px] xl:mt-[40px] xl:ml-[270px] rounded-full flex items-center justify-center'>
+                  <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thorwhite mt-[-20px] ml-[170px] md:mt-[10px] md:ml-[190px] xl:mt-[40px] xl:ml-[270px] rounded-full flex items-center justify-center'>
                       <img src={energyicon} className="w-[65px] h-[65px] md:w-[85px] md:h-[85px] xl:w-[120px] xl:h-[120px]"/>
                   </motion.div>
-                  <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thororange mt-[30px] ml-[-220px] md:mt-[100px] md:ml-[-250px] xl:mt-[180px] xl:ml-[-380px] rounded-full flex items-center justify-center'>
+                  <motion.div variants={itemAnimation} className='w-[100px] h-[100px] md:w-[120px] md:h-[120px] xl:w-[170px] xl:h-[170px] bg-thorwhite mt-[30px] ml-[-220px] md:mt-[100px] md:ml-[-250px] xl:mt-[180px] xl:ml-[-380px] rounded-full flex items-center justify-center'>
                       <img src={iticon} className="w-[65px] h-[65px] md:w-[85px] md:h-[85px] xl:w-[120px] xl:h-[120px]"/>
                   </motion.div>
                  
