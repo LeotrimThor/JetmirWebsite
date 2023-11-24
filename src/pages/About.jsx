@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import aboutIMG from "../assets/images/aboutus.webp";
+import aboutIMG from "../assets/images/apple-company.jpg";
 
 import { motion } from "framer-motion";
 import {
@@ -18,8 +18,41 @@ const About = () => {
   return (
     <>
 
+      {/* pushing for vercel */}
+      <Navbar
+        NavbarColor=""
+        TextColor="text-white"
+        AfterColor="after:bg-white"
+        TextHoverColor="hover:text-white"
+      />
 
-     
+      <motion.div
+        variants={ContainerAnimation}
+        initial="hidden"
+        animate="show"
+        className={`w-[100vw] h-[17vh] flex flex-row items-center pt-24 sm:pl-[50px] pl-[10px] bg-thorwhite`}
+      >
+        <motion.h2
+          variants={LtRtextAnimation}
+          className="text-thorblack text-lg sm:text-xl"
+        >
+          <Link to="/">{t("home")}</Link>
+        </motion.h2>
+        <motion.h2
+          variants={LtRtextAnimation}
+          className="text-thorblack text-lg ml-[10px] sm:text-xl mr-[10px]"
+        >
+          {" "}
+          / <Link to="/About">{t("about")}</Link> /{" "}
+        </motion.h2>
+        <motion.h2
+          variants={LtRtextAnimation}
+          className={`text-lg sm:text-xl text-black`}
+        >
+          {t("wwa")}
+        </motion.h2>
+      </motion.div>
+
 
       
       <div className="flex flex-col lg:flex-row flex-1 min-h-auto w-full bg-thorblack text-white px-4 md:px-8 lg:px-12 gap-8 py-12">
@@ -34,13 +67,13 @@ const About = () => {
           </motion.h1>
           <motion.h5
             variants={itemAnimation}
-            className="font-regular text-thororange"
+            className="font-regular text-black"
           >
             <Link to="/About">{t("wwa")}</Link>
           </motion.h5>
           <motion.h5
             variants={itemAnimation}
-            className="font-regular hover:text-thororange"
+            className="font-regular hover:text-black"
           >
             <Link to="/StaffPage">{t("ourStaff")}</Link>
           </motion.h5>
@@ -74,7 +107,9 @@ const About = () => {
                 {t("about us")}
               </motion.h2>
               <motion.p variants={textAnimation} className="text-[14px] pt-8">
-                <b className="text-[16px]">Thor Industriessss, </b>
+
+                <b className="text-[16px]">At Apple Inc, </b>
+
                 {t("aboutPageFirst")}
               </motion.p>
 

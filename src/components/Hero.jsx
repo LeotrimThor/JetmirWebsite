@@ -6,11 +6,11 @@ import { useSwipeable } from 'react-swipeable';
 import { motion } from 'framer-motion';
 import { useTranslation } from "react-i18next";
 import { ContainerAnimation,textAnimation} from "../utils/motion";
-import miningimage from '../assets/images/Mining-Foto/slider-2.webp';
-import renewableimage from '../assets/images/renewable-energy/pic3.webp';
-import constructionimage from '../assets/images/Construction-Foto/carousel.webp';
-import ConsultingImage from "../assets/images/consulting4.webp";
-import itImage from '../assets/images/ItS-Hero.webp'
+import miningimage from '../assets/images/Mining-Foto/mac.jpg';
+import renewableimage from '../assets/images/renewable-energy/iphone.png';
+import constructionimage from '../assets/images/Construction-Foto/ipad.jpg';
+import ConsultingImage from "../assets/images/airpods.png";
+import itImage from '../assets/images/watch.png'
 import { Link } from 'react-router-dom';
 
 
@@ -18,11 +18,11 @@ const Hero = () => {
   //used for translation
   const { t }=useTranslation()
   const slides = [
-    {url: miningimage, title: t('min'), text: t('mintext'), color:'text-thormining', link:'/MiningDep'},
-    {url: constructionimage, title: t('cnst'), text: t('cnsttext'), color:'text-thorconstruction', link:'/ConstructionDep'},
-    {url: renewableimage, title: t('rnw'), text: t('rnwtext'), color:'text-thorenergy', link:'/RenewableEnergyDep'},
-    {url: ConsultingImage, title: t('Cons'), text: t('ConsSlogan'), color:'text-thorconsulting', link: '/ConsultingDep'},
-    {url: itImage, title: t('ItS'), text: t('ItSText'), color:'text-thorit', link:'#'}
+    {url: miningimage, title: t('ipad'), text: t('mintext'), color:'text-thormining', link:'/MiningDep'},
+    {url: constructionimage, title: t('ipad'), text: t('cnsttext'), color:'text-thorconstruction', link:'/ConstructionDep'},
+    {url: renewableimage, title: t('iphone'), text: t('rnwtext'), color:'text-thorenergy', link:'/RenewableEnergyDep'},
+    {url: ConsultingImage, title: t('airpods'), text: t('ConsSlogan'), color:'text-thorconsulting', link: '/ConsultingDep'},
+    {url: itImage, title: t('watch'), text: t('ItSText'), color:'text-thorit', link:'#'}
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
