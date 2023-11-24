@@ -18,11 +18,11 @@ const Hero = () => {
   //used for translation
   const { t }=useTranslation()
   const slides = [
-    {url: miningimage, title: t('mac'), text: t('mintext'), color:'text-thormining', link:'/MiningDep'},
-    {url: constructionimage, title: t('ipad'), text: t('cnsttext'), color:'text-thorconstruction', link:'/ConstructionDep'},
-    {url: renewableimage, title: t('iphone'), text: t('rnwtext'), color:'text-thorenergy', link:'/RenewableEnergyDep'},
-    {url: ConsultingImage, title: t('airpods'), text: t('ConsSlogan'), color:'text-thorconsulting', link: '/ConsultingDep'},
-    {url: itImage, title: t('watch'), text: t('ItSText'), color:'text-thorit', link:'#'}
+    {url: miningimage, title: t('mac'), text: t('mintext'), color:'text-thorwhite', link:'/MiningDep'},
+    {url: constructionimage, title: t('ipad'), text: t('cnsttext'), color:'text-thorwhite', link:'/ConstructionDep'},
+    {url: renewableimage, title: t('iphone'), text: t('rnwtext'), color:'text-thorwhite', link:'/RenewableEnergyDep'},
+    {url: ConsultingImage, title: t('airpods'), text: t('ConsSlogan'), color:'text-thorwhite', link: '/ConsultingDep'},
+    {url: itImage, title: t('watch'), text: t('ItSText'), color:'text-thorwhite', link:'#'}
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -162,7 +162,7 @@ const Hero = () => {
             {console.log(slides[currentIndex].link)}
           <motion.button variants={textAnimation} 
           className={`
-          bg-thorwhite 
+          bg-thorblack 
           ${[slides[currentIndex].color]} 
           active:bg-transparent 
           active:border-2 
@@ -194,7 +194,7 @@ const Hero = () => {
       p-2 
       bg-black/20 
       duration-200 
-      hover:bg-thororange 
+      hover:bg-thorblack 
       hover:duration-200 
       text-white 
       cursor-pointer'>
@@ -217,7 +217,7 @@ const Hero = () => {
       p-2 
       bg-black/20 
       duration-200 
-      hover:bg-thororange 
+      hover:bg-thorblack
       hover:duration-200 
       text-white 
       cursor-pointer'>
@@ -230,8 +230,8 @@ const Hero = () => {
             <RxDotFilled key={slideIndex} onClick={() => goToSlide(slideIndex)} className={` /*goToSlide is a function*/
             ${
             slideIndex === currentIndex
-              ? `active:text-thororange
-                 text-thororange 
+              ? `active:text-thorblack
+                 text-thorblack 
                  duration-200 
                  active:duration-200 
                  scale-[1.8] 

@@ -27,7 +27,7 @@ export const Stats = () => {
 
   return (
     <>
-         <div className='w-screen bg-thororange flex justify-between items-center flex-col h-[20vh] sm:h-[14vh] pb-[15px]'>
+         <div className='w-screen bg-thorwhite flex justify-between items-center flex-col h-[20vh] sm:h-[14vh] pb-[15px]'>
             <motion.div variants={ContainerAnimation} initial="hidden" whileInView="show" className='w-[100%] h-[100%] flex flex-row justify-evenly text-center '>
                 <motion.div variants={itemAnimation} className='sm:w-1/5 h-full flex justify-center items-center sm:flex-row 
                                 w-[90px] flex-col'>
@@ -38,7 +38,7 @@ export const Stats = () => {
                                     lg:text-[60px]'>
                      35+
                     </div>
-                    <div className='sm:text-xl  sm:leading-7 text-white
+                    <div className='sm:text-xl  sm:leading-7 text-thorblack
                                     text-[13px] leading-6 
                                     md:text-[15px]
                                     lg:text-[18px]'>
@@ -53,7 +53,7 @@ export const Stats = () => {
                                 lg:text-[60px]' ref={myRef}>
                                     50+
                     </div>
-                    <div className='sm:text-xl  sm:leading-7 text-white
+                    <div className='sm:text-xl  sm:leading-7 text-thorblack
                                     text-[13px] leading-6 
                                     md:text-[15px]
                                     lg:text-[18px]
@@ -69,7 +69,7 @@ export const Stats = () => {
                                 lg:text-[60px] '> 
                     10+
                     </div>
-                    <div className='sm:text-xl  sm:leading-2 text-white
+                    <div className='sm:text-xl  sm:leading-2 text-thorblack
                                     text-[13px] leading-2 content-evenly
                                     md:text-[12px]
                                     lg:text-[18px]

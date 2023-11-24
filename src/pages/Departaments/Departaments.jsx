@@ -2,7 +2,7 @@ import React from 'react'
 import  Card from '../../components/Card';
 import DepNavigator from './DepNavigator';
 import CTA from '../../components/CTA';
-import bgImage from '../../assets/images/CTA-Home-Background.webp';
+import bgImage from '../../assets/images/apple-home-bg-2.jpg';
 import Navbar from '../../components/Navbar';
 import { Link } from 'react-router-dom';
 import miningPic from "../../assets/images/mining-carousel.webp"

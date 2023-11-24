@@ -25,7 +25,7 @@ const MainAboutUs = () => {
             // viewport={{once:true}}
             className={`text-thorwhite sm:text-[64px] text-[48px] relative 
             before:absolute ${t('about')=="За нас" ? "before:w-[100px]" : "before:w-[170px]"}  before:h-[5px]
-            before:left-[5px] md:before:bottom-[10px] before:bottom-0 before:border-thororange before:border-b-[6px]`}
+            before:left-[5px] md:before:bottom-[10px] before:bottom-0 before:border-thorwhite before:border-b-[6px]`}
           >
             {t('about') }
           </motion.h2>
@@ -69,7 +69,7 @@ const MainAboutUs = () => {
                 className="font-semibold text-center ml-[-240px] sm:text-left lg:text-left md:text-left md:text-[48px] text-[40px] lg:text-[64px] text-white py-3 md:py-0 md:ml-5 lg:ml-[88px] xl:ml-0"
               >
                 {" "}
-                <span className="text-thororange ">{t('homeAboutUsP0.1')}</span>
+                <span className="text-thorwhite ">{t('homeAboutUsP0.1')}</span>
                 <br /> {t('homeAboutUsP0.2')}
               </motion.h1>
               <motion.p
@@ -83,7 +83,7 @@ const MainAboutUs = () => {
               </motion.p>
 
                 <Link to={'/About'} onClick={()=>scrollTo(0,0)}
-                className='bg-thororange text-thorwhite p-3 mr-60 md:mr-[420px] md:mt-[30px] lg:mr-60 lg:mt-[-30px] xl:mr-80 mt-[30px] rounded-full font-medium'>
+                className='bg-thorwhite text-thorblack p-3 mr-60 md:mr-[420px] md:mt-[30px] lg:mr-60 lg:mt-[-30px] xl:mr-80 mt-[30px] rounded-full font-medium'>
                   {t('learnBtn')}<FontAwesomeIcon icon={faAnglesRight} className='pl-2 pt-1'/>
                 </Link>
             </div>

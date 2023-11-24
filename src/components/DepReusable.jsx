@@ -9,9 +9,9 @@ function DepReusable() {
     var linq = window.location.href;
     useEffect(()=>{
         if(window.location.href.includes('Dep'))
-        setMyData({"Name":"Mining","Text":"MiningText","Image":"../assets/images/CTA-Home-Background-webp"})
+        setMyData({"Name":"Mining","Text":"MiningText","Image":"../assets/images/apple-home-bg-2.png"})
         else if(window.location.href.includes('Mining'))
-        setMyData({"Name":"Construction","Text":"ConstructionText","Image":"../assets/images/CTA-Home-Background-webp"})
+        setMyData({"Name":"Construction","Text":"ConstructionText","Image":"../assets/images/apple-home-bg-2.png"})
 
     },[linq])
 
