@@ -47,7 +47,7 @@ export const Navbar = ({
   const links = [
     { name: t("home"), link: "/" },
     { name: t("about"), link: "/About" },
-    { name: t("mac"), link: "/Departments" },
+    { name: t("product"), link: "/Departments" },
    
   ];
   const Departmentlinks = [
