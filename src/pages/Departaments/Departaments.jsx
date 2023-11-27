@@ -5,10 +5,10 @@ import CTA from '../../components/CTA';
 import bgImage from '../../assets/images/apple-home-bg-2.jpg';
 import Navbar from '../../components/Navbar';
 import { Link } from 'react-router-dom';
-import miningPic from "../../assets/images/mining-carousel.webp"
-import constructionPic from "../../assets/images/construction-1.webp"
-import renewablePic from "../../assets/images/renewable.webp"
-import computersPic from "../../assets/images/IT-solutions.webp"
+import miningPic from "../../assets/images/macbook-productS.png"
+import constructionPic from "../../assets/images/iphone-productS.png"
+import renewablePic from "../../assets/images/airpods-productS.png"
+import computersPic from "../../assets/images/ipad-productS.png"
 import consultingPic from "../../assets/images/consulting1.webp"
 import { motion } from 'framer-motion';
 
@@ -41,7 +41,7 @@ const Departaments = () => {
       toDep:"/RenewableEnergyDep"
     },
     {
-      name:t('ItS'),
+      name:t('ipad'),
       description:t('ItSDesc'),
       image:computersPic,
       toDep:"#"
@@ -57,7 +57,7 @@ const Departaments = () => {
 
   return (
     <>
-    <Navbar NavbarColor="bg-thororange" TextColor="text-thororange" AfterColor="after:bg-thororange" TextHoverColor="hover:text-thororange"/>
+    <Navbar NavbarColor="bg-thorwhite" TextColor="text-thorwhite" AfterColor="after:bg-thorwhite" TextHoverColor="hover:text-thorwhite"/>
     
     <motion.div
         variants={ContainerAnimation}
@@ -73,10 +73,10 @@ const Departaments = () => {
         </motion.h2>
         <motion.h2
           variants={LtRtextAnimation}
-          className="text-thororange text-lg ml-[10px] sm:text-xl mr-[10px]"
+          className="text-thorblack text-lg ml-[10px] sm:text-xl mr-[10px]"
         >
           {" "}
-          <Link to="/Departments">{t('depart')}</Link>
+          <Link to="/Departments">{t('product')}</Link>
         </motion.h2>
       </motion.div>
 
@@ -91,10 +91,10 @@ const Departaments = () => {
         <div className='sm:pl-[120px] pt-5  mx-0 '>
           <motion.h2 variants={LtRtextAnimation} className='text-white sm:text-[64px] text-4xl text-center pt-5 sm:pt-0 relative lg:pt-40 lg:pr-20 xl:pr-72 min-[1315px]:pt-10 before:absolute
                           before:border-b-4
-                          before:border-thororange
+                          before:border-thorwhite
                           before:sm:w-[200px]
                           before:w-[70px]
-                          before:bottom-[-20px] '>{t('depart')}
+                          before:bottom-[-20px] '>{t('product')}
                           
                           </motion.h2>
         </div>
@@ -110,7 +110,7 @@ const Departaments = () => {
       </div>
 
     
-    <CTA bgImage={bgImage} bgColor={'thororange'}/>
+    <CTA bgImage={bgImage} bgColor={'thorwhite'}/>
     </>
   )
 }
