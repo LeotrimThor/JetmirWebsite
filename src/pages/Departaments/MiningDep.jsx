@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react'
 import AboutDep from '../../components/AboutDep';
 import Navbar from '../../components/Navbar';
 import CTA from '../../components/CTA';
-import ctaImage from "../../assets/images/ey-investment.webp"
+import ctaImage from "../../assets/images/macbook-macsection.png"
 import ProjectsCarousel from '../../components/projects/ProjectsCarousel';
 import c1 from "../../assets/images/Mining-Foto/mining1.webp"
 import c2 from "../../assets/images/Mining-Foto/mining2.webp"

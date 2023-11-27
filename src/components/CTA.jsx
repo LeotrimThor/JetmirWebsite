@@ -20,25 +20,25 @@ export const CTA = ({ bgImage, bgColor }) => {
           variants={ContainerAnimation}
           initial="hidden"
           whileInView="show"
-          className={`bg-${bgColor} sm:mr-24  ml-24 mr-5 w-[469px] sm:h-[461px] h-[400px] rounded-3xl z-10`}
+          className={`bg-thorwhite sm:mr-24  ml-24 mr-5 w-[469px] sm:h-[461px] h-[400px] rounded-3xl z-10`}
         >
           <div className="flex flex-col w=[96%] h-[96%] m-[8%]">
             <motion.div
               variants={itemAnimation}
-              className="text-black text-base leading-9 font-medium "
+              className="text-thorblack text-base leading-9 font-medium "
             >
               {t("CTAtitle")}
             </motion.div>
             <motion.div
               variants={itemAnimation}
-              className="text-black font-black text-[30px] sm:text-4xl  sm:mt-10 mt-[10px] sm:leading-[50px] leading-[30px]"
+              className="text-thorblack font-black text-[30px] sm:text-4xl  sm:mt-10 mt-[10px] sm:leading-[50px] leading-[30px]"
             >
               {t("CTAslogan")}
             </motion.div>
 
             <motion.div
               variants={itemAnimation}
-              className="sm:mt-[50px] mt-[30px] text-black font-poppins text-sm leading-4 "
+              className="sm:mt-[50px] mt-[30px] text-thorblack font-poppins text-sm leading-4 "
             >
               {t("CTAdescription")}
             </motion.div>
@@ -47,7 +47,7 @@ export const CTA = ({ bgImage, bgColor }) => {
                 to="../Contact"
                 title="Contact"
                 onClick={() => scrollTo(0, 0)}
-                className="font-semibold bg-black text-thorwhite h-[50px] rounded-2xl flex justify-center items-center sm:mt-16 mt-[30px] w-[100%] hover:bg-white hover:text-black"
+                className="font-semibold bg-thorblack text-thorwhite h-[50px] rounded-2xl flex justify-center items-center sm:mt-16 mt-[30px] w-[100%] hover:bg-white hover:text-black"
               >
                 {t("CntUs")}
               </Link>

@@ -552,9 +552,9 @@ export const Navbar = ({
             <NavLink
               to="/Contact"
               title="Contact"
-              className={` btn-primary ${NavbarColor} hidden lg:block btn-primary`}
+              className={` btn-primary ${NavbarColor} hidden lg:block btn-primary text-black`}
               onClick={()=>window.scrollTo(0,0)}
-              style={{backgroundColor: 'black'}}
+              style={{backgroundColor: 'white'}}
             >
               {t("CntUs")}
             </NavLink>

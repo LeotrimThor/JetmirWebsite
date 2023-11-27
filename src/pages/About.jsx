@@ -20,10 +20,10 @@ const About = () => {
 
       {/* pushing for vercel */}
       <Navbar
-        NavbarColor=""
-        TextColor="text-white"
-        AfterColor="after:bg-white"
-        TextHoverColor="hover:text-white"
+        NavbarColor="bg-thorwhite"
+        TextColor="text-thorwhite"
+        AfterColor="after:bg-thorwhite"
+        TextHoverColor="hover:text-thorwhite"
       />
 
       <motion.div
@@ -47,7 +47,7 @@ const About = () => {
         </motion.h2>
         <motion.h2
           variants={LtRtextAnimation}
-          className={`text-lg sm:text-xl text-black`}
+          className={`text-lg sm:text-xl text-thorblack`}
         >
           {t("wwa")}
         </motion.h2>
@@ -67,13 +67,13 @@ const About = () => {
           </motion.h1>
           <motion.h5
             variants={itemAnimation}
-            className="font-regular text-black"
+            className="font-regular text-thorblack"
           >
             <Link to="/About">{t("wwa")}</Link>
           </motion.h5>
           <motion.h5
             variants={itemAnimation}
-            className="font-regular hover:text-black"
+            className="font-regular hover:text-thorblack"
           >
             <Link to="/StaffPage">{t("ourStaff")}</Link>
           </motion.h5>
@@ -100,16 +100,14 @@ const About = () => {
                               before:h-[5px]
                               before:left-[0px]
                               before:bottom-0
-                              before:border-thororange
+                              before:border-thorwhite
                               before:border-b-[5px]
             "
               >
                 {t("about us")}
               </motion.h2>
               <motion.p variants={textAnimation} className="text-[14px] pt-8">
-
-                <b className="text-[16px]">At Apple Inc, </b>
-
+                <b className="text-[16px]">Apple Inc., </b>
                 {t("aboutPageFirst")}
               </motion.p>
 
