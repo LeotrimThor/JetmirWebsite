@@ -4,12 +4,12 @@ import Navbar from '../../components/Navbar';
 import CTA from '../../components/CTA';
 import ctaImage from "../../assets/images/macbook-macsection.png"
 import ProjectsCarousel from '../../components/projects/ProjectsCarousel';
-import c1 from "../../assets/images/Mining-Foto/mining1.webp"
-import c2 from "../../assets/images/Mining-Foto/mining2.webp"
-import c3 from "../../assets/images/Mining-Foto/mining3.webp"
-import c4 from "../../assets/images/Mining-Foto/mining4.webp"
-import c5 from "../../assets/images/Mining-Foto/mining5.webp"
-import c6 from "../../assets/images/Mining-Foto/mining6.webp"
+import c1 from "../../assets/images/macbook-sliderfoto/macbook-slider1.png"
+import c2 from "../../assets/images/macbook-sliderfoto/macbook-slider2.png"
+import c3 from "../../assets/images/macbook-sliderfoto/macbook-slider3.png"
+import c4 from "../../assets/images/macbook-sliderfoto/macbook-slider4.png"
+import c5 from "../../assets/images/macbook-sliderfoto/macbook-slider5.png"
+import c6 from "../../assets/images/macbook-sliderfoto/macbook-slider6.png"
 
 function miningDep() {
 
@@ -51,8 +51,8 @@ function miningDep() {
       "Text":'minDescLg',
       "Textsize":"text-[44px]",
       "TextsizeSmall":"sm:text-[64px]",
-      "Textcolor":"text-thormining",
-      "Bordercolor":"before:border-thormining",
+      "Textcolor":"text-gray",
+      "Bordercolor":"before:border-gray",
       "TextHeight":"70px",
       "TextWidth":"450",
     })    
@@ -60,7 +60,7 @@ function miningDep() {
   
   return (
     <>
-      <Navbar  NavbarColor="bg-thormining" TextColor="text-thormining" AfterColor="after:bg-thormining" TextHoverColor="hover:text-thormining"/>
+      <Navbar  NavbarColor="bg-gray" TextColor="text-gray" AfterColor="after:bg-gray" TextHoverColor="hover:text-gray"/>
       <AboutDep myData={myData}/>
       <ProjectsCarousel cardInfo={projectInfo}/>
       <CTA bgColor="thormining" bgImage={ctaImage}/>

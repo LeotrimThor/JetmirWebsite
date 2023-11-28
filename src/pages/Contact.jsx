@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <>
 
-    <Navbar NavbarColor="bg-thororange" />
+    <Navbar NavbarColor="bg-gray" />
     
     <motion.div
         variants={ContainerAnimation}
@@ -67,7 +67,7 @@ const Contact = () => {
         </motion.h2>
         <motion.h2
           variants={LtRtextAnimation}
-          className="text-thororange text-lg ml-[10px] sm:text-xl mr-[10px]"
+          className="text-thorblack text-lg ml-[10px] sm:text-xl mr-[10px]"
         >
           {" "}
           <Link href="/Contact">{t('CntUs')}</Link>
@@ -81,7 +81,7 @@ const Contact = () => {
                           before:h-[5px]
                           before:left-[5px]
                           before:bottom-0
-                          before:border-thororange
+                          before:border-thorwhite
                           before:border-b-4
          '>
           {t('CntUs')}
@@ -126,35 +126,35 @@ const Contact = () => {
           <motion.h1 variants={textAnimation} className="mb-2 mt-8 text-2xl font-semibold">{t('FollowUs')}</motion.h1>
           <motion.div variants={textAnimation} className='flex flex-row pt-4 pb-6 '>
             <a href="https://www.linkedin.com/company/thorindustries/ ">
-            <FontAwesomeIcon className="h-10 w-10 text-thororange pr-4 hover:text-thorwhite" icon={faLinkedin} />
+            <FontAwesomeIcon className="h-10 w-10 text-thorwhite pr-4 hover:text-gray" icon={faLinkedin} />
             </a>
-            <FontAwesomeIcon className="h-10 w-10 text-thororange pr-4" icon={faFacebook} />
-            <FontAwesomeIcon className="h-10 w-10 text-thororange pr-4" icon={faInstagram} />
-            <FontAwesomeIcon className="h-10 w-10 text-thororange" icon={faTwitter} />
+            <FontAwesomeIcon className="h-10 w-10 text-thorwhite pr-4 hover:text-gray" icon={faFacebook} />
+            <FontAwesomeIcon className="h-10 w-10 text-thorwhite pr-4 hover:text-gray" icon={faInstagram} />
+            <FontAwesomeIcon className="h-10 w-10 text-thorwhite hover:text-gray" icon={faTwitter} />
           </motion.div>
           <h1 className="mb-2 mt-8 text-2xl font-semibold">{t('Location')}</h1>
           <div className='w-[100%] flex flex-col pt-4 pb-6 md:text-center lg:text-left'>
             <p className="mb-2 mt-8 text-[20px] font-regular">
-            <FontAwesomeIcon className="h-6 w-6 text-thororange pr-2" icon={faLocationDot} />
+            <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faLocationDot} />
               {t('LocationAddress')}
             </p>
             <p className="mb-2 mt-8 text-[20px] font-regular">
-            <FontAwesomeIcon className="h-6 w-6 text-thororange pr-2" icon={faPhone} />
+            <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faPhone} />
               +389 (0) 72 216 045
             </p>
             <p className="mb-2 mt-8 text-[20px] font-regular">
-            <FontAwesomeIcon className="h-6 w-6 text-thororange pr-2" icon={faEnvelope} />
+            <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faEnvelope} />
               info@thorindustriesmk.com
             </p>
             <p className="mb-2 mt-8 text-[20px] font-regular">
-            <FontAwesomeIcon className="h-6 w-6 text-thororange pr-2" icon={faClock} />
+            <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faClock} />
               {t('WorkDays')}
             </p>
           </div>
       </motion.div>
     </motion.section>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.3004777631236!2d21.431084932163074!3d41.993826499665595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415b6eef9ce8b%3A0xd29fff2c4059fa9c!2zU2hvcHBpbmcgY2VudGVyIOKAnlNvcmF2aWHigJw!5e0!3m2!1sen!2smk!4v1678870503637!5m2!1sen!2smk" className='2xl:w-[3000px] 2xl:h-[500px] xl:w-[2200px] xl:h-[500px] lg:w-[2000px] lg:h-[450px] md:w-[1000px] md:h-[400px] sm:w-[1000px] sm:h-[300px] w-[1000px] h-[300px]' allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.4349659252325!2d-122.0136013235776!3d37.3322098375292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5908480994d%3A0xe75bfea4dd9a286f!2sApple%20Park%20Way%2C%20Cupertino%2C%20CA%2095014%2C%20USA!5e0!3m2!1sen!2smk!4v1700839381296!5m2!1sen!2smk" className='w-full h-[400px]' />
     
 </>
   )

@@ -46,12 +46,7 @@ const Departaments = () => {
       image:computersPic,
       toDep:"#"
     },
-    {
-      name:t('Cons'),
-      description:t('ConsDesc'),
-      image:consultingPic,
-      toDep:"/ConsultingDep"
-    },
+   
   ]
 
 

@@ -55,7 +55,7 @@ export const Navbar = ({
     { name: t('ipad'), link: "/ConstructionDep" },
     { name: t('iphone'), link: "/RenewableEnergyDep" },
     { name: t('airpods'), link: "/ConsultingDep" },
-    { name: t('watch'), link: "/#" },
+    
     
   ];
 
@@ -418,7 +418,7 @@ export const Navbar = ({
                             to={department.link}
                             className={classNames(
                               active
-                                ? `${TextColor}`
+                                ? `text-gray`
                                 : "text-thorblack transition-all duration-500 ",
                               "block px-4 py-2 text-md font-medium"
                             )}
@@ -505,7 +505,7 @@ export const Navbar = ({
                           active
                             ? `${TextColor}`
                             : "text-thorblack transition-all duration-500 ",
-                          "block px-4 py-2 text-md font-medium hover:text-thororange"
+                          "block px-4 py-2 text-md font-medium hover:text-gray"
                         )}
                       >
                         {selectedLanguage === "Macedonian"
@@ -532,7 +532,7 @@ export const Navbar = ({
                           active
                             ? `${TextColor}`
                             : "text-thorblack transition-all duration-500",
-                          "block px-4 py-2 text-md font-medium hover:text-thororange"
+                          "block px-4 py-2 text-md font-medium hover:text-gray"
                         )}
                       >
                         {selectedLanguage === "English"

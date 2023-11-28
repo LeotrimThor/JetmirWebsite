@@ -10,7 +10,7 @@ import miningimage from '../assets/images/Mining-Foto/mac.jpg';
 import renewableimage from '../assets/images/renewable-energy/iphone.png';
 import constructionimage from '../assets/images/Construction-Foto/ipad.jpg';
 import ConsultingImage from "../assets/images/airpods.png";
-import itImage from '../assets/images/watch.png'
+
 import { Link } from 'react-router-dom';
 
 
@@ -22,7 +22,7 @@ const Hero = () => {
     {url: constructionimage, title: t('ipad'), text: t('cnsttext'), color:'text-thorwhite', link:'/ConstructionDep'},
     {url: renewableimage, title: t('iphone'), text: t('rnwtext'), color:'text-thorwhite', link:'/RenewableEnergyDep'},
     {url: ConsultingImage, title: t('airpods'), text: t('ConsSlogan'), color:'text-thorwhite', link: '/ConsultingDep'},
-    {url: itImage, title: t('watch'), text: t('ItSText'), color:'text-thorwhite', link:'#'}
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
