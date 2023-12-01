@@ -18,10 +18,10 @@ const Hero = () => {
   //used for translation
   const { t }=useTranslation()
   const slides = [
-    {url: miningimage, title: t('mac'), text: t('mintext'), color:'text-thorwhite', link:'/MiningDep'},
-    {url: constructionimage, title: t('ipad'), text: t('cnsttext'), color:'text-thorwhite', link:'/ConstructionDep'},
-    {url: renewableimage, title: t('iphone'), text: t('rnwtext'), color:'text-thorwhite', link:'/RenewableEnergyDep'},
-    {url: ConsultingImage, title: t('airpods'), text: t('ConsSlogan'), color:'text-thorwhite', link: '/ConsultingDep'},
+    {url: miningimage, title: t('mac'), text: t('mintext'), color:'text-thorwhite', link:'/Macbook'},
+    {url: constructionimage, title: t('ipad'), text: t('cnsttext'), color:'text-thorwhite', link:'/Ipad'},
+    {url: renewableimage, title: t('iphone'), text: t('rnwtext'), color:'text-thorwhite', link:'/Iphone'},
+    {url: ConsultingImage, title: t('airpods'), text: t('ConsSlogan'), color:'text-thorwhite', link: '/Airpods'},
     
   ];
 

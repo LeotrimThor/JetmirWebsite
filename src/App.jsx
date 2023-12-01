@@ -3,13 +3,13 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Departaments from "./pages/Departaments/Departaments";
 import Contact from "./pages/Contact";
-import MiningDep from "./pages/Departaments/MiningDep";
+import Macbook from "./pages/Departaments/Macbook";
 import { Footer } from "./components/Footer"
-import ConstructionDep from "./pages/Departaments/ConstructionDep";
-import RenewableEnergy from "./pages/Departaments/RenewableEnergyDep";
+import Ipad from "./pages/Departaments/Ipad";
+import Iphone from "./pages/Departaments/Iphone";
 import StaffPage from "./pages/StaffPage";
 import News from "./components/News";
-import ConsultingDep from "./pages/Departaments/ConsultingDep";
+import Airpods from "./pages/Departaments/Airpods";
 function App() {
   
   return (
@@ -20,10 +20,10 @@ function App() {
       <Route path="/About" element={<About />} />
       <Route path="/Departments" element={<Departaments />} />
       <Route path="/Contact" element={<Contact />} />
-      <Route path="/MiningDep" element={<MiningDep />} />
-      <Route path="/ConstructionDep" element={<ConstructionDep />} />
-      <Route path="/RenewableEnergyDep" element={<RenewableEnergy />} />
-      <Route path="/ConsultingDep" element={<ConsultingDep />} />
+      <Route path="/Macbook" element={<Macbook />} />
+      <Route path="/Ipad" element={<Ipad />} />
+      <Route path="/Iphone" element={<Iphone />} />
+      <Route path="/Airpods" element={<Airpods />} />
       <Route path="/Contact" element={<Contact/>} /> 
       <Route path="/StaffPage" element={<StaffPage/>} /> 
       <Route path="/News" element={<News/>} />

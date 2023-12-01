@@ -51,10 +51,10 @@ export const Navbar = ({
    
   ];
   const Departmentlinks = [
-    { name: t('mac'), link: "/MiningDep" },
-    { name: t('ipad'), link: "/ConstructionDep" },
-    { name: t('iphone'), link: "/RenewableEnergyDep" },
-    { name: t('airpods'), link: "/ConsultingDep" },
+    { name: t('mac'), link: "/Macbook" },
+    { name: t('ipad'), link: "/Ipad" },
+    { name: t('iphone'), link: "/Iphone" },
+    { name: t('airpods'), link: "/Airpods" },
     
     
   ];

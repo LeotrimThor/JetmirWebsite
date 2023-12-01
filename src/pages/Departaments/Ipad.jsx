@@ -12,7 +12,7 @@ import s4 from '../../assets/images/ipad-sliderfoto/ipad-slider4.png'
 import s5 from '../../assets/images/ipad-sliderfoto/ipad-slider5.png'
 import s6 from '../../assets/images/ipad-sliderfoto/ipad-slider6.png'
 
-function ConstructionDep() {
+function iPad() {
 
   const projectInfo=[
     {
@@ -44,7 +44,7 @@ function ConstructionDep() {
 
   const [myData,setMyData] = useState(()=>[]);
   useEffect(()=>{
-    if(window.location.href.includes('Dep'))
+    if(window.location.href.includes('iPad'))
     setMyData({
       "Name":'ipad',
       "Image":ConstructionIMG,
@@ -68,4 +68,4 @@ function ConstructionDep() {
   )
 }
 
-export default ConstructionDep
+export default iPad

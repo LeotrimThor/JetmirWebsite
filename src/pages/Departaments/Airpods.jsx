@@ -13,7 +13,7 @@ import c3 from "../../assets/images/airpods-sliderfoto/airpods-slider3.png"
 import c4 from "../../assets/images/airpods-sliderfoto/airpods-slider4.png"
 import c5 from "../../assets/images/airpods-sliderfoto/airpods-slider5.png"
 
-function ConsultingDep() {
+function Airpods() {
 
 
   const projectInfo=[
@@ -42,7 +42,7 @@ function ConsultingDep() {
   const [myData,setMyData] = useState([]);
 
   useEffect(()=>{
-    if(window.location.href.includes('Dep'))
+    if(window.location.href.includes('Airpods'))
     setMyData({
       "Name":'airpods',
       "Image":ctaImage,
@@ -67,4 +67,4 @@ function ConsultingDep() {
   )
 }
 
-export default ConsultingDep
+export default Airpods

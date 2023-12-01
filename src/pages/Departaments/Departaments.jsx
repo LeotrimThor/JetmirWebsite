@@ -26,19 +26,19 @@ const Departaments = () => {
       name:t('mac'),
       description:t('minDesc'),
       image:miningPic,
-      toDep:"/MiningDep"
+      toDep:"/Macbook"
     },
     {
       name:t('iphone'),
       description:t('cnstDesc'),
       image:constructionPic,
-      toDep:"/ConstructionDep"
+      toDep:"/Ipad"
     },
     {
       name:t('airpods'),
       description:t('rnwDesc'),
       image:renewablePic,
-      toDep:"/RenewableEnergyDep"
+      toDep:"/Iphone"
     },
     {
       name:t('ipad'),

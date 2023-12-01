@@ -13,7 +13,7 @@ import s4 from '../../assets/images/iphone-sliderfoto/iphone-slider4.png'
 import s5 from '../../assets/images/iphone-sliderfoto/iphone-slider5.png'
 import s6 from '../../assets/images/iphone-sliderfoto/iphone-slider6.png'
 
-function RenewableEnergy() {
+function Iphone() {
 
 
   const projectInfo=[
@@ -47,7 +47,7 @@ function RenewableEnergy() {
     const [myData,setMyData] = useState([]);
 
     useEffect(()=>{
-      if(window.location.href.includes('Dep'))
+      if(window.location.href.includes('Iphone'))
       setMyData({
         "Name":'iphone',
         "Image":EnergyIMG,
@@ -70,4 +70,4 @@ function RenewableEnergy() {
     )
 }
 
-export default RenewableEnergy;
+export default Iphone;

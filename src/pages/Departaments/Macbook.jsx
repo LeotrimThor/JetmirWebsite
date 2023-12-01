@@ -11,7 +11,7 @@ import c4 from "../../assets/images/macbook-sliderfoto/macbook-slider4.png"
 import c5 from "../../assets/images/macbook-sliderfoto/macbook-slider5.png"
 import c6 from "../../assets/images/macbook-sliderfoto/macbook-slider6.png"
 
-function miningDep() {
+function macBook() {
 
 
   const projectInfo=[
@@ -44,7 +44,7 @@ function miningDep() {
   const [myData,setMyData] = useState([]);
 
   useEffect(()=>{
-    if(window.location.href.includes('Dep'))
+    if(window.location.href.includes('Macbook'))
     setMyData({
       "Name":'mac',
       "Image":ctaImage,
@@ -69,4 +69,4 @@ function miningDep() {
   )
 }
 
-export default miningDep
+export default macBook
