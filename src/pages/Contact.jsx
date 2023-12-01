@@ -140,11 +140,11 @@ const Contact = () => {
             </p>
             <p className="mb-2 mt-8 text-[20px] font-regular">
             <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faPhone} />
-              +389 (0) 72 216 045
+            (800) APL–CARE (800–275–2273)
             </p>
             <p className="mb-2 mt-8 text-[20px] font-regular">
             <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faEnvelope} />
-              info@thorindustriesmk.com
+              info@apple.com
             </p>
             <p className="mb-2 mt-8 text-[20px] font-regular">
             <FontAwesomeIcon className="h-6 w-6 text-thorwhite pr-2" icon={faClock} />

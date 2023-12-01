@@ -44,7 +44,7 @@ function iPad() {
 
   const [myData,setMyData] = useState(()=>[]);
   useEffect(()=>{
-    if(window.location.href.includes('iPad'))
+    if(window.location.href.includes('Ipad'))
     setMyData({
       "Name":'ipad',
       "Image":ConstructionIMG,

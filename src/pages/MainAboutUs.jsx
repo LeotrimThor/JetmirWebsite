@@ -77,7 +77,7 @@ const MainAboutUs = () => {
                 initial="hidden"
                 whileInView="show"
                 className="text-white w-[300px] ml-[-240px] text-justify lg:w-[470px] md:w-3/4 h-auto lg:mb-20 lg:mt-10 tracking-tight md:ml-5 lg:ml-[88px] xl:ml-0 font-medium">
-                <b className="text-[18px]">Thor Industries </b>{t('homeAboutUsP1')}
+                <b className="text-[18px]">Apple Inc., </b>{t('homeAboutUsP1')}
                 <br /> <br />
                 {t('homeAboutUsP2')}
               </motion.p>
