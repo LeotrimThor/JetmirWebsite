@@ -18,10 +18,10 @@ export const Footer = () => {
   ];
 
   const socials=[
-    {name:"Linkedin", icon:faLinkedin, link:"https://www.linkedin.com/company/thorindustries/", color:"hover:text-[#0072b1]"},
-    {name:"Facebook", icon:faFacebook, link:"#", color:"hover:text-[#3b5998]"},
-    {name:"Twitter", icon:faTwitter, link:"#", color:"hover:text-[#00acee]"},
-    {name:"Instagram", icon:faInstagram, link:"#", color:"hover:text-[#962fbf]"},
+    {name:"Linkedin", icon:faLinkedin, link:"https://www.linkedin.com/company/apple", color:"hover:text-[#0072b1]"},
+    {name:"Facebook", icon:faFacebook, link:"https://www.facebook.com/apple", color:"hover:text-[#3b5998]"},
+    {name:"Twitter", icon:faTwitter, link:"https://twitter.com/Apple", color:"hover:text-[#00acee]"},
+    {name:"Instagram", icon:faInstagram, link:"https://www.instagram.com/apple/", color:"hover:text-[#962fbf]"},
   ]
   return (
     <>
